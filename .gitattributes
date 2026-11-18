@@ -1,0 +1,9 @@
+* text=auto
+
+# Windows 脚本保持 CRLF，避免 .cmd 在克隆后失效
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+
+# 文档与图片
+*.md  text eol=lf
+*.png binary

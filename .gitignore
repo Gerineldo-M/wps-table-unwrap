@@ -1,0 +1,14 @@
+# Office 临时锁文件与备份
+~$*
+*.bak
+*.tmp
+*.docx~
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 本地测试产物
+_demo/
+*.log
